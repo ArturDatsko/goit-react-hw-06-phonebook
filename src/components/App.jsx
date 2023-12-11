@@ -22,7 +22,7 @@ export const App = () => {
       {filteredContacts.length ? (
         <>
           <StyledTitle>Find contacts by name</StyledTitle>
-          <ContactList items={filteredContacts} />
+          <ContactList />
         </>
       ) : (
         <StyledTitle>There are no contacts yet!</StyledTitle>
